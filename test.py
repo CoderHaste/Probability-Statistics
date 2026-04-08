@@ -6,10 +6,7 @@ from PIL import Image
 import numpy as np
 import timm
 import matplotlib.pyplot as plt
-try:
-    import cv2
-except ImportError:
-    import opencv_python_headless as cv2
+import cv2
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 import io
